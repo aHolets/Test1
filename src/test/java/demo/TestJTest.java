@@ -11,4 +11,10 @@ public class TestJTest {
         Assert.assertEquals("OK", TestJ.test());
     }
 
+    @Test
+    public void testJ2() {
+        Assert.assertNotEquals("OK", TestJ.test());
+    }
+
+
 }
