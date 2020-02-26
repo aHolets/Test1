@@ -1,13 +1,8 @@
-
-echo "PLUGIN ::: unitTests -------------"
-/*
 def unitTests(ctx) {
     echo "PLUGIN ::: unitTests "
-   */
-/* withDockerContainer(image:'maven:3.6.3-jdk-8-slim'){
+   /* withDockerContainer(image:'maven:3.6.3-jdk-8-slim'){
         sh 'mvn test'
-    }*//*
-
+    }*/
 }
 
 def build(ctx) {
@@ -31,4 +26,3 @@ return [
         unit: this.&unitTests
     ]
 ]
-*/
