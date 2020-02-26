@@ -1,6 +1,8 @@
 
 echo "PLUGIN ::: unitTests "
 
+return "Return section"
+
 /*
 def unitTests(ctx) {
     echo "PLUGIN ::: unitTests "
